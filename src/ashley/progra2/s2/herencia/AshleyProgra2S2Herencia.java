@@ -20,7 +20,7 @@ public class AshleyProgra2S2Herencia {
 
         Empleado emp2 = new Gerente("Maria Lopez", 35, "0801199001234", "San Pedro Sula", "9999-2222", 50000, "GER001", "15/01/2020", "Tiempo completo", "Administracion", "Recursos Humanos", 12, 150000, "Semanal");
 
-        Empleado emp3 = new DesarrolladorSenior("Ana Rodriguez", 30, "0501199405678", "La Ceiba", "9999-3333", 40000, "SEN001", "10/03/2021", "Tiempo completo", "Desarrollo", "Java", "Avanzado", "NetBeans", 10, 7, 5, "Backend", true);
+        Empleado emp3 = new DevSenior("Ana Rodriguez", 30, "0501199405678", "La Ceiba", "9999-3333", 40000, "SEN001", "10/03/2021", "Tiempo completo", "Desarrollo", "Java", "Avanzado", "NetBeans", 10, 7, 5, "Backend", true);
 
         emp1.trabajar();
         emp2.trabajar();
